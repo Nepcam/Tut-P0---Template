@@ -19,14 +19,20 @@ namespace Tut_P0
         }
         string[] brandArray = new string[] { "Coke", "Pams", "Pepsi", "Phoenix", "Other" };
 
-        
-
         private void buttonEx1_Click(object sender, EventArgs e)
         {
-            List<int> numsList = new List<int>(); // { 5, 1, 5, 3, 6, 3, 0 };
-            int count = 0;
+            List<int> numsList = new List<int>() { 5, 1, 5, 3, 6, 3, 0 };
 
-            
+            int count = 0;
+            for (int i = 0; i < numsList.Count; i++)
+            {
+                int firstNum = numsList[0];
+                if (numsList[i] == firstNum)
+                {
+                    count++;
+                }
+            }
+            MessageBox.Show("The number " + numsList[0] + " occurred " + count + " times. ");
         }
 
         private void buttonEx2_Click(object sender, EventArgs e)
