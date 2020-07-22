@@ -64,7 +64,7 @@ namespace Tut_P0
                 if (bList[i] == brand)
                 {
                     count++;
-                }
+                } 
             }
             //Calulate and return the percentage
             return (double)count / bList.Count;
