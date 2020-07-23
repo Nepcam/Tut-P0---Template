@@ -20,8 +20,6 @@ namespace Tut_P0
         //An array to store all the brands in the survey
         string[] brandArray = new string[] { "Coke", "Pams", "Pepsi", "Phoenix", "Other" };
 
-
-
         private void buttonEx1_Click(object sender, EventArgs e)
         {
             List<int> numsList = new List<int>() { 5, 1, 5, 3, 6, 3, 0 };
