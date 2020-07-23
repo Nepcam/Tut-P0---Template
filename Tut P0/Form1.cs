@@ -24,7 +24,7 @@ namespace Tut_P0
 
         private void buttonEx1_Click(object sender, EventArgs e)
         {
-            List<int> numsList = new List<int>() { 3, 1, 5, 3, 6, 3, 0 };
+            List<int> numsList = new List<int>() { 5, 1, 5, 3, 6, 3, 0 };
             int count = 0;
             //Check if the list is empty
             if (numsList.Count > 0)
